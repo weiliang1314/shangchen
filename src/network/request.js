@@ -5,7 +5,11 @@ export function request(config) {
 
     //创建实例
     const instance = axios.create({
+<<<<<<< HEAD
             baseURL: 'http://152.136.185.210:8000/api/w6/',
+=======
+            baseURL: 'http://',
+>>>>>>> 2d9d8be7af36ca02108dc6d233c5f0d064542e8e
             timeout: 5000
         })
         //拦截器
